@@ -1,0 +1,10 @@
+{
+  "name": "CivicSense AI",
+  "description": "Smart Civic Issue Prioritizer — AI-Powered Civic Intelligence and Complaint Management Platform",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

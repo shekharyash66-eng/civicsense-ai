@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Authenticated citizen or officer user record",
+      "type": "object",
+      "properties": {
+        "full_name": {
+          "type": "string",
+          "description": "User's full name"
+        },
+        "email": {
+          "type": "string",
+          "description": "User's email address"
+        },
+        "phone": {
+          "type": "string",
+          "description": "User's phone number with country code"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["Citizen", "Administrator", "Department Officer"],
+          "description": "Access control role"
+        },
+        "created_at": {
+          "type": "string",
+          "description": "ISO timestamp of registration"
+        }
+      },
+      "required": ["full_name", "email", "role"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles collection indexed by UID"
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "complaints": [
+    {
+      "id": "CIV-4909",
+      "title": "Severe municipal water pipe burst flooding roadway and sidewalk",
+      "description": "Clean drinking water is gushing out of an underground distribution pipe fracture, submerging the sidewalk and creating a 2-inch deep waterlogging zone across two vehicle lanes.",
+      "category": "Water Leakage & Drainage",
+      "location_name": "1220 Market Street, outside public library",
+      "latitude": 26.9528381,
+      "longitude": 80.98121096666667,
+      "image_url": "data:image/jpeg;base64,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",
+      "submitted_at": "2026-10-22T18:08:50.548Z",
+      "status": "Submitted",
+      "priority_score": 45.8,
+      "priority_level": "Medium",
+      "safety_risk_score": 45,
+      "severity_score": 65,
+      "population_impact_score": 50,
+      "time_unresolved_score": 10,
+      "is_emergency_flagged": false,
+      "assigned_department_id": null,
+      "related_incident_id": null,
+      "ai_analysis": {
+        "category": "Water Leakage & Drainage",
+        "summary": "Severe municipal water pipe burst flooding roadway and sidewalk: reported issue requiring municipal inspection.",
+        "severity_score": 65,
+        "safety_risk_score": 45,
+        "affected_population_score": 50,
+        "suggested_department": "Municipal Water & Sewerage Board",
+        "possible_emergency": false,
+        "reasoning": [
+          "Keywords identify water supply or drainage infrastructure degradation."
+        ],
+        "missing_information": [],
+        "isFallback": true
+      },
+      "reporter_name": "Yash Shekhar",
+      "reporter_email": "shekharyash66@gmail.com",
+      "is_demo": false
+    },
+    {
+      "id": "CIV-5084",
+      "title": "Exposed live electrical power cable sparking against metallic street pole",
+      "description": "A severe storm has knocked down an overhead secondary electrical wire. It is visibly sparking against a pedestrian light pole on the public sidewalk, creating an imminent life-safety hazard.",
+      "category": "Broken Streetlights & Electrical",
+      "location_name": "415 Mission Street, sidewalk corridor",
+      "latitude": 37.79,
+      "longitude": -122.398,
+      "submitted_at": "2026-10-22T16:58:33.655Z",
+      "status": "Submitted",
+      "priority_score": 71.5,
+      "priority_level": "High",
+      "safety_risk_score": 95,
+      "severity_score": 88,
+      "population_impact_score": 50,
+      "time_unresolved_score": 10,
+      "is_emergency_flagged": true,
+      "assigned_department_id": null,
+      "related_incident_id": null,
+      "ai_analysis": {
+        "category": "Broken Streetlights & Electrical",
+        "summary": "Exposed live electrical power cable sparking against metallic street pole: reported issue requiring municipal inspection.",
+        "severity_score": 88,
+        "safety_risk_score": 95,
+        "affected_population_score": 50,
+        "suggested_department": "City Power & Electrical Authority",
+        "possible_emergency": true,
+        "reasoning": [
+          "Text mentions severe immediate hazard requiring urgent human review.",
+          "Illumination failure impacts nighttime pedestrian safety and security."
+        ],
+        "missing_information": [],
+        "isFallback": true
+      },
+      "reporter_name": "Umang Shukla",
+      "is_demo": false
+    }
+  ],
+  "incidents": [],
+  "statusHistory": [
+    {
+      "id": "sh-1792692530549",
+      "complaint_id": "CIV-4909",
+      "previous_status": null,
+      "new_status": "Submitted",
+      "note": "Complaint successfully registered in municipal database.",
+      "changed_by": "Yash Shekhar",
+      "changed_by_role": "Citizen",
+      "changed_at": "2026-10-22T18:08:50.548Z"
+    },
+    {
+      "id": "sh-1792688313656",
+      "complaint_id": "CIV-5084",
+      "previous_status": null,
+      "new_status": "Submitted",
+      "note": "Complaint successfully registered in municipal database.",
+      "changed_by": "Umang Shukla",
+      "changed_by_role": "Citizen",
+      "changed_at": "2026-10-22T16:58:33.655Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-roads",
+      "name": "Department of Public Works (Roads)",
+      "category_specialty": [
+        "Potholes & Road Damage",
+        "Public Infrastructure Damage"
+      ],
+      "description": "Responsible for municipal roadway paving, asphalt maintenance, bridges, sidewalks, and structural repairs.",
+      "head_officer": "Marcus Vance, Chief Engineer",
+      "contact_email": "dpw.roads@civicsense.gov",
+      "contact_phone": "+1 (555) 019-4821",
+      "active": true,
+      "sla_target_hours": 48
+    },
+    {
+      "id": "dept-water",
+      "name": "Municipal Water & Sewerage Board",
+      "category_specialty": [
+        "Water Leakage & Drainage"
+      ],
+      "description": "Manages municipal water mains, supply lines, sewer mains, storm drains, and flood mitigation.",
+      "head_officer": "Elena Rostova, Director of Utilities",
+      "contact_email": "water.dispatch@civicsense.gov",
+      "contact_phone": "+1 (555) 019-4822",
+      "active": true,
+      "sla_target_hours": 24
+    },
+    {
+      "id": "dept-electric",
+      "name": "City Power & Electrical Authority",
+      "category_specialty": [
+        "Broken Streetlights & Electrical"
+      ],
+      "description": "Oversees municipal street lighting grids, traffic signals, transformers, and public electrical safety.",
+      "head_officer": "David Chen, Grid Operations Supervisor",
+      "contact_email": "grid.operations@civicsense.gov",
+      "contact_phone": "+1 (555) 019-4823",
+      "active": true,
+      "sla_target_hours": 36
+    },
+    {
+      "id": "dept-sanitation",
+      "name": "Waste & Environmental Sanitation",
+      "category_specialty": [
+        "Garbage & Sanitation"
+      ],
+      "description": "Directs municipal solid waste collection, illegal dumping removal, hazardous debris clearance, and public bins.",
+      "head_officer": "Sarah Jenkins, Sanitation Superintendent",
+      "contact_email": "sanitation.support@civicsense.gov",
+      "contact_phone": "+1 (555) 019-4824",
+      "active": true,
+      "sla_target_hours": 24
+    },
+    {
+      "id": "dept-traffic",
+      "name": "Pedestrian & Traffic Safety Board",
+      "category_specialty": [
+        "Pedestrian & Traffic Safety",
+        "Other Civic Issues"
+      ],
+      "description": "Manages pedestrian crosswalks, traffic calming, school safety corridors, signage, and accessibility ramps.",
+      "head_officer": "Rajiv Patel, Safety Director",
+      "contact_email": "pedestrian.safety@civicsense.gov",
+      "contact_phone": "+1 (555) 019-4825",
+      "active": true,
+      "sla_target_hours": 72
+    }
+  ],
+  "priorityWeights": {
+    "safety_risk": 40,
+    "severity": 25,
+    "population_impact": 20,
+    "time_unresolved": 15
+  },
+  "users": [
+    {
+      "id": "USR-ADMIN-01",
+      "full_name": "Chief Administrator",
+      "email": "admin@civicsense.gov",
+      "password_hash": "30b849d325531f6203e94b4409c58ffb:b27e8fe045c4d526ed91169e120ca69d1789cc11b8a6a421d20c15759d3aa51eb687de55e19e3558136c597004051c5efda1166f52b7b123f36876dec17ddf4d",
+      "role": "Administrator",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T16:06:56.420Z"
+    },
+    {
+      "id": "USR-OFFICER-01",
+      "full_name": "Public Works Inspector",
+      "email": "roads.officer@civicsense.gov",
+      "password_hash": "db930bf10e20d802786aa4162ff5b3d8:fd8feb806236cd03aa5cd600d9f25850cacf21d3797622827c3df645d52956f112ae331674a80223c08457f40bbfdf6c20e7584f9f0299087a3538e4aac446ff",
+      "role": "Department Officer",
+      "department_id": "dept-potholes",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T16:06:56.420Z"
+    },
+    {
+      "id": "USR-OFFICER-02",
+      "full_name": "Water & Sewerage Supervisor",
+      "email": "water.officer@civicsense.gov",
+      "password_hash": "4db2dd5b022a24046fe7c17b9849ee40:9a3e6b274616f1ca636c631a7fdbfc5757d6d6bf792cfb71f44cf570531716452f171daf104cd7c4f0135855715d71f7223dca74c96e1668c193ad145060a3e6",
+      "role": "Department Officer",
+      "department_id": "dept-water",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T16:06:56.420Z"
+    },
+    {
+      "id": "USR-OFFICER-03",
+      "full_name": "Electrical Authority Engineer",
+      "email": "power.officer@civicsense.gov",
+      "password_hash": "3ea2f0da743a40ac655a825ae84b6703:5c117bcef9da3e1b015b69a0662d19b011f68a8bf51870538900e7db955cf0bdc200eeb345c2628911ec364b604238e237d9e0bb4a2af59b5856c98cf7222401",
+      "role": "Department Officer",
+      "department_id": "dept-lighting",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T16:06:56.420Z"
+    },
+    {
+      "id": "USR-CITIZEN-01",
+      "full_name": "Jane Citizen",
+      "email": "citizen@civicsense.gov",
+      "password_hash": "09565977b1e83d635cfb7dd5e8608f47:6a77eb3db5b34ff2c80084dec5a15154caf25de5496d5037b9addcd5e9ba5e707171108c7b370d440a5a289b061d604c59864427a52a1da38fa947c7a52efcec",
+      "role": "Citizen",
+      "phone": "+1 (555) 019-2834",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T16:06:56.420Z"
+    },
+    {
+      "id": "USR-GGL-YBi8LVPphETKk3xA41iPrln3Pny1",
+      "full_name": "Yash Shekhar",
+      "email": "shekharyash66@gmail.com",
+      "password_hash": "cfb37bc3bbb501d89b765442456d5e57:30167cff2f37733989092a6bcd80f4001af9e8edc5090ba7df79cabdc8645d6a89b8ea8dba0102836e7a7b178681e77bae7367572d28b61cbdb0ffb0a05e419e",
+      "role": "Administrator",
+      "email_verified": true,
+      "status": "active",
+      "created_at": "2026-10-22T17:11:06.910Z",
+      "last_login_at": "2026-10-22T17:50:27.710Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "04b68c8678dbd291d4a885dbabddfd47ce547e945b3c4d21d5495a7dcea3c8b5",
+      "user_id": "USR-GGL-YBi8LVPphETKk3xA41iPrln3Pny1",
+      "created_at": "2026-10-22T17:11:06.911Z",
+      "expires_at": "2026-11-21T17:11:06.911Z"
+    },
+    {
+      "token": "f74be9547f7c17c59ec53ee9a462d00dc77e10a5bd6dbdcf21683ffd9919a755",
+      "user_id": "USR-GGL-YBi8LVPphETKk3xA41iPrln3Pny1",
+      "created_at": "2026-10-22T17:28:12.429Z",
+      "expires_at": "2026-11-21T17:28:12.429Z"
+    },
+    {
+      "token": "dfafe8e3a4927f5d24669ef9449d30ee7f2f3e5be9ea4538a74d3e0c37793899",
+      "user_id": "USR-GGL-YBi8LVPphETKk3xA41iPrln3Pny1",
+      "created_at": "2026-10-22T17:50:27.711Z",
+      "expires_at": "2026-11-21T17:50:27.711Z"
+    }
+  ],
+  "passwordResetTokens": []
+}

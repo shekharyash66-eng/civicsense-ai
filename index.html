@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        // AI Studio Dev Environment: Suppress Vite HMR / Module Runner WebSocket connection errors
+        // Per environment constraint: "HMR: Disabled. Ignore WebSocket errors."
+        function isViteHmrError(msg, src, err) {
+          var text = (msg || '') + ' ' + (src || '') + ' ' + (err && (err.stack || err.message) || '');
+          return (
+            text.indexOf('createWebSocketModuleRunnerTransport') !== -1 ||
+            text.indexOf('@vite/client') !== -1 ||
+            text.indexOf('vite:ws') !== -1 ||
+            text.indexOf('failed to connect to websocket') !== -1 ||
+            text.indexOf('WebSocket connection') !== -1
+          );
+        }
+
+        var _origErr = console.error;
+        console.error = function() {
+          var text = Array.prototype.slice.call(arguments).map(String).join(' ');
+          if (isViteHmrError(text, '', null)) return;
+          _origErr.apply(console, arguments);
+        };
+
+        var _origWarn = console.warn;
+        console.warn = function() {
+          var text = Array.prototype.slice.call(arguments).map(String).join(' ');
+          if (isViteHmrError(text, '', null)) return;
+          _origWarn.apply(console, arguments);
+        };
+
+        window.addEventListener('error', function(e) {
+          if (isViteHmrError(e.message, e.filename, e.error)) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            return true;
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(e) {
+          var r = e.reason;
+          var msg = (r && (r.stack || r.message)) || String(r || '');
+          if (isViteHmrError(msg, '', r)) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+          }
+        }, true);
+
+        if (typeof window.WebSocket !== 'undefined') {
+          var NativeWebSocket = window.WebSocket;
+          window.WebSocket = function(url, protocols) {
+            try {
+              var ws = protocols !== undefined ? new NativeWebSocket(url, protocols) : new NativeWebSocket(url);
+              ws.addEventListener('error', function(evt) {
+                if (typeof evt.stopImmediatePropagation === 'function') {
+                  evt.stopImmediatePropagation();
+                }
+              });
+              return ws;
+            } catch (err) {
+              return {
+                url: url,
+                readyState: 3,
+                send: function() {},
+                close: function() {},
+                addEventListener: function() {},
+                removeEventListener: function() {},
+                dispatchEvent: function() { return false; },
+                onopen: null,
+                onclose: null,
+                onerror: null,
+                onmessage: null,
+              };
+            }
+          };
+          window.WebSocket.prototype = NativeWebSocket.prototype;
+          window.WebSocket.CONNECTING = NativeWebSocket.CONNECTING;
+          window.WebSocket.OPEN = NativeWebSocket.OPEN;
+          window.WebSocket.CLOSING = NativeWebSocket.CLOSING;
+          window.WebSocket.CLOSED = NativeWebSocket.CLOSED;
+        }
+      })();
+    </script>
+    <title>CivicSense AI — Smart Civic Issue Prioritizer</title>
+    <meta name="description" content="AI-Powered Civic Intelligence and Complaint Management Platform. Smarter Priorities. Safer Communities." />
+    <meta property="og:title" content="CivicSense AI — Smart Civic Issue Prioritizer" />
+    <meta property="og:description" content="AI-Powered Civic Intelligence and Complaint Management Platform. Smarter Priorities. Safer Communities." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      window.addEventListener('error', function(e) {
+        if (e.message && (e.message.includes('createWebSocketModuleRunnerTransport') || e.message.includes('WebSocket') || e.message.includes('vite'))) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        if (e.reason && (String(e.reason).includes('WebSocket') || String(e.reason).includes('createWebSocketModuleRunnerTransport'))) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

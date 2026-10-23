@@ -1,0 +1,6 @@
+{
+  "name": "CivicFix",
+  "description": "AI-powered civic complaint platform to report civic issues and track the fix together.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
